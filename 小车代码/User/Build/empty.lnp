@@ -1,0 +1,22 @@
+--cpu=Cortex-M4.fp
+".\build\main.o"
+".\build\system_msp432p401r.o"
+".\build\startup_msp432p401r_uvision.o"
+"..\lib\msp432\msp432p4xx_driverlib.lib"
+".\build\led.o"
+".\build\timer.o"
+".\build\exti.o"
+".\build\key.o"
+".\build\myiic.o"
+".\build\isr.o"
+".\build\motor.o"
+".\build\oled.o"
+".\build\spi.o"
+".\build\delay.o"
+".\build\clock.o"
+".\build\baudrate_calculate.o"
+".\build\usart.o"
+--library_type=microlib --strict --scatter ".\Build\empty.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\empty.map" -o .\Build\empty.axf

@@ -1,0 +1,15 @@
+..\obj\serial.o: ..\HARDWARE\UART3\Serial.c
+..\obj\serial.o: ..\USER\stm32f10x.h
+..\obj\serial.o: ..\CORE\core_cm3.h
+..\obj\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\serial.o: ..\USER\system_stm32f10x.h
+..\obj\serial.o: ..\USER\stm32f10x_conf.h
+..\obj\serial.o: ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+..\obj\serial.o: ..\USER\stm32f10x.h
+..\obj\serial.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\obj\serial.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\obj\serial.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\obj\serial.o: ..\STM32F10x_FWLib\inc\misc.h
+..\obj\serial.o: ..\HARDWARE\OLED\OLED.h
+..\obj\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

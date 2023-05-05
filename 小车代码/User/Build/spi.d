@@ -1,0 +1,15 @@
+.\build\spi.o: ..\Hardware\oled\spi.c
+.\build\spi.o: ..\Hardware\oled\spi.h
+.\build\spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\build\spi.o: ..\lib\inc\gpio.h
+.\build\spi.o: ..\lib\sys\msp.h
+.\build\spi.o: ..\lib\sys\msp432p401r.h
+.\build\spi.o: ..\lib\sys\msp_compatibility.h
+.\build\spi.o: ..\lib\sys\msp432p401r_classic.h
+.\build\spi.o: ..\lib\Include\core_cm4.h
+.\build\spi.o: ..\lib\Include\core_cmInstr.h
+.\build\spi.o: ..\lib\Include\cmsis_armcc.h
+.\build\spi.o: ..\lib\Include\core_cmFunc.h
+.\build\spi.o: ..\lib\Include\core_cmSimd.h
+.\build\spi.o: ..\lib\sys\system_msp432p401r.h

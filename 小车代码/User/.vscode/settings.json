@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "headfile.h": "c",
+        "gpio.h": "c",
+        "timer.h": "c",
+        "key.h": "c",
+        "motor.h": "c",
+        "stdint.h": "c",
+        "usart.h": "c",
+        "ano_dtp.h": "c"
+    }
+}
